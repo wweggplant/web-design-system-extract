@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "site_name": "",
+    "target_site_base_url": "",
+    "home_path": "/",
+    "nav_path": "",
+    "collected_at": "",
+    "theme_modes": [],
+    "breakpoints": { "desktop": "1440x900", "tablet": "834x1112", "mobile": "390x844" }
+  },
+
+  "evidence": {
+    "screenshots": [],
+    "crops": [],
+    "html": [],
+    "css": [],
+    "fonts": [],
+    "samples": [],
+    "network": []
+  },
+
+  "tech_stack": {
+    "framework": { "name": "", "confidence": "Uncertain", "evidence": [] },
+    "styling": { "name": "", "confidence": "Uncertain", "evidence": [] },
+    "icons": { "name": "", "confidence": "Uncertain", "evidence": [] },
+    "ui_libs": { "items": [], "evidence": [] }
+  },
+
+  "font_forensics": {
+    "verified_status": "UNVERIFIED",
+    "network_requests": [],
+    "font_faces": [],
+    "computed_probes": [],
+    "conclusion": {
+      "primary_families": [],
+      "fallbacks": [],
+      "variable_axes": [],
+      "notes": []
+    }
+  },
+
+  "tokens": {
+    "primitive": {
+      "color": { "neutrals": [], "accents": [], "opacity": [], "glass": [], "outliers": [] },
+      "typography": { "scale": [], "weights": [], "line_heights": [], "letter_spacing": [], "outliers": [] },
+      "spacing": { "scale": [], "outliers": [] },
+      "size": { "control_heights": [], "icon_sizes": [], "outliers": [] },
+      "radius": { "scale": [], "outliers": [] },
+      "border_width": { "scale": [], "outliers": [] },
+      "shadow": { "scale": [], "outliers": [] },
+      "motion": { "durations": [], "easings": [], "properties": [], "outliers": [] },
+      "z_index": { "scale": [], "outliers": [] },
+      "layout": { "container": {}, "grid": {}, "gutters": {}, "outliers": [] }
+    },
+
+    "semantic": {
+      "color": { "bg": {}, "text": {}, "border": {}, "interactive": {}, "focus": {}, "overlay": {} },
+      "elevation": {},
+      "motion": {},
+      "typography": {}
+    },
+
+    "component": {
+      "navbar": {},
+      "button": {},
+      "card": {},
+      "input": {},
+      "chip": {},
+      "grid": {},
+      "popover": {},
+      "tooltip": {},
+      "modal": {},
+      "pagination": {}
+    }
+  },
+
+  "interaction_model": {
+    "state_matrix": [],
+    "patterns": {
+      "hover": [],
+      "focus_visible": [],
+      "pressed_selected": [],
+      "overlays": []
+    },
+    "state_diffs": []
+  },
+
+  "density_rhythm": {
+    "control_heights": {},
+    "section_spacing": {},
+    "list_row_heights": {},
+    "card_padding_gaps": {},
+    "breakpoint_deltas": [],
+    "evidence": []
+  },
+
+  "layout_grammar": {
+    "container_steps": [],
+    "gutters": {},
+    "grid_rules": [],
+    "min_card_width": {},
+    "evidence": []
+  },
+
+  "surface_material": {
+    "surface_levels": {},
+    "divider_rules": [],
+    "glass_blur_rules": [],
+    "evidence": []
+  },
+
+  "accessibility": {
+    "focus_ring": {},
+    "target_sizes": [],
+    "contrast_samples": [],
+    "reduced_motion": {},
+    "notes": []
+  },
+
+  "responsive_rules": [],
+  "notes": []
+}
