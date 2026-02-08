@@ -1,15 +1,14 @@
 ---
 
-name: web-design-system-reverse
-short-description: "Reverse engineer design system + UX interaction model"
-description: "Design System Reverse Engineer. Use Playwright (via MCP/skill) to reverse-engineer a live website’s design system for pixel-perfect recreation. Produces: tech stack fingerprint, font forensics, design tokens (primitive/semantic/component), interaction model + state matrix, density/rhythm rules, responsive layout grammar, accessibility checks, and minimal implementation (Tailwind config or CSS vars + tokens.ts). Optimized for results: correct sampling, UI-defining tokens, reproducible specs, and explainable decision traces."
+name: web-design-system-extract
+description: "Design System Extractor. Use Playwright (via MCP/skill) to extract a live website’s design system for pixel-perfect recreation. Produces: tech stack fingerprint, font forensics, design tokens (primitive/semantic/component), interaction model + state matrix, density/rhythm rules, responsive layout grammar, accessibility checks, and minimal implementation (Tailwind config or CSS vars + tokens.ts). Optimized for results: correct sampling, UI-defining tokens, reproducible specs, and explainable decision traces."
 ---
 
-# Design System Reverse Engineer (Pixel-Accurate + UX-Complete)
+# Design System Extractor (Pixel-Accurate + UX-Complete)
 
 ## Goal
 
-Reverse-engineer a site’s design system AND the UX-defining interaction rules that create its “feel”: typography (incl. variable fonts), density/rhythm, surfaces/materials, states, motion, layout grammar, and accessibility behaviors.
+Extractor-engineer a site’s design system AND the UX-defining interaction rules that create its “feel”: typography (incl. variable fonts), density/rhythm, surfaces/materials, states, motion, layout grammar, and accessibility behaviors.
 
 The output must be reproducible (tokens + component specs + state matrix + responsive rules), and explainable (decision traces + evidence index).
 
