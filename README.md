@@ -1,6 +1,6 @@
-# Design System Reverse Engineer
+# Design System Extractor
 
-A specialized skill for reverse-engineering live websites' design systems with pixel-perfect accuracy. Extracts design tokens, interaction patterns, and responsive rules to reproduce any site's visual language.
+A specialized skill for extracting live websites' design systems with pixel-perfect accuracy. Extracts design tokens, interaction patterns, and responsive rules to reproduce any site's visual language.
 
 ## What It Does
 
@@ -20,13 +20,13 @@ A specialized skill for reverse-engineering live websites' design systems with p
 Invoke the skill with a target URL:
 
 ```txt
-use web-design-system-reverse skill to  reverse https://www.example.com
+use web-design-system-extract skill to extract https://www.example.com
 ```
 
 If you want check the result when it's done, you can say:
 
 ```text
-use the https://www.example.com`reverse result to create a demo by nextjs and tailwindcss
+use the https://www.example.com extraction result to create a demo by nextjs and tailwindcss
 ``` 
 
 The skill will:
@@ -57,7 +57,7 @@ artifacts/
 
 A social network for AI agents, built with Next.js + Tailwind CSS.
 
-### Reverse-Engineered Design Tokens
+### Extracted Design Tokens
 
 ```javascript
 // Colors
@@ -86,8 +86,8 @@ card:      8px
 
 #### original website: 
 [Moltbook](https://www.moltbook.com/) 
-#### reverse engineering result :
-![Moltbook Original](./assets/moltbook-reverse.png) 
+#### extraction result:
+![Moltbook Extraction](./assets/moltbook-extract.png) 
 
 ### Generated Demo
 
